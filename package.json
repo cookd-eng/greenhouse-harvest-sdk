@@ -1,5 +1,5 @@
 {
-  "name": "@greenhouse/harvest-sdk",
+  "name": "@aalobai1/harvest-sdk",
   "version": "1.0.0",
   "description": "SDK for interacting with the Greenhouse Harvest API",
   "main": "lib/index.js",
@@ -8,12 +8,18 @@
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["greenhouse", "harvest", "api", "sdk", "typescript"],
+  "keywords": [
+    "greenhouse",
+    "harvest",
+    "api",
+    "sdk",
+    "typescript"
+  ],
   "author": "Cookd Engineering",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cookd-eng/greenhouse-harvest-sdk.git"
+    "url": "git+https://github.com/cookd-eng/greenhouse-harvest-sdk.git"
   },
   "bugs": {
     "url": "https://github.com/cookd-eng/greenhouse-harvest-sdk/issues"
@@ -21,10 +27,16 @@
   "homepage": "https://github.com/cookd-eng/greenhouse-harvest-sdk#readme",
   "devDependencies": {
     "@types/node": "^22.2.0",
-    "typescript": "^5.5.4",
-    "ts-jest": "^29.0.0"
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
     "axios": "^1.0.0"
+  },
+  "dependencies": {
+    "lib": "^5.1.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }

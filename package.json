@@ -1,0 +1,33 @@
+{
+  "name": "@greenhouse/harvest-sdk",
+  "version": "1.0.0",
+  "description": "SDK for interacting with the Greenhouse Harvest API",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["greenhouse", "harvest", "api", "sdk", "typescript"],
+  "author": "Your Name or Organization",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/greenhouse-harvest-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/greenhouse-harvest-sdk/issues"
+  },
+  "homepage": "https://github.com/yourusername/greenhouse-harvest-sdk#readme",
+  "devDependencies": {
+    "@types/node": "^22.2.0",
+    "typescript": "^5.5.4",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  },
+  "peerDependencies": {
+    "axios": "^1.0.0"
+  }
+}

@@ -125,7 +125,7 @@ export declare class HarvestCustomFieldsApi extends BaseGreenhouseHarvestSDK {
      * @param type The type of options to retrieve (all, active, or inactive)
      * @param onBehalfOf The user to make the request on behalf of
      */
-    listCustomFieldOptions(customFieldId: number, type: "all" | "active" | "inactive" | undefined, onBehalfOf: string): Promise<CustomFieldOption[]>;
+    listCustomFieldOptions(customFieldId: number, type: ("all" | "active" | "inactive") | undefined, onBehalfOf: string): Promise<CustomFieldOption[]>;
     /**
      * Create Custom Field Options
      * @param customFieldId The ID of the custom field

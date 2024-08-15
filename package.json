@@ -1,6 +1,6 @@
 {
   "name": "@cookd/harvest-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SDK for interacting with the Greenhouse Harvest API",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
